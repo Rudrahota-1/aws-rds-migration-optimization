@@ -1,0 +1,14 @@
+{
+  "MigrationType": "full-load-and-cdc",
+  "TargetMetadata": {
+    "TargetSchema": "",
+    "SupportLobs": true
+  },
+  "FullLoadSettings": {
+    "TargetTablePrepMode": "DROP_AND_CREATE",
+    "CreatePkAfterFullLoad": false
+  },
+  "Logging": {
+    "EnableLogging": true
+  }
+}
